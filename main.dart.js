@@ -105985,7 +105985,7 @@ else{r=r.mi()
 if($.km() instanceof A.f9){$.wn=A.BR()
 $.lA=$.lz=null}if($.lF() instanceof A.f9)$.wq=A.BQ()
 A.du(null,t.H)
-r=new A.a0o("\ud22c\ud45c\ub9c8\uac10 "+A.ku("M.d. H:mm","ko_KR").ei(r)+" ",null)}return A.bw(A.a([r,B.abv,new A.ZD(s,null)],t.p),B.D,B.ao,B.r)}}
+r=new A.a0o("\ud22c\ud45c\ub9c8\uac10 "+A.ku("M.d.(E) a h:mm","ko_KR").ei(r)+" ",null)}return A.bw(A.a([r,B.abv,new A.ZD(s,null)],t.p),B.D,B.ao,B.r)}}
 A.ZD.prototype={
 F(a){var s,r=null,q=this.c.x
 q===$&&A.b()
@@ -106197,7 +106197,7 @@ if($.km() instanceof A.f9){$.wn=A.BR()
 $.lA=$.lz=null}if($.lF() instanceof A.f9)$.wq=A.BQ()
 A.du(o,t.H)
 q=t.p
-r=A.cO(A.a([s,B.eQ,A.b8(A.ku("M.d. H:mm","ko_KR").ei(r),o,o,o,A.bY(o,o,A.D(a).db,o,o,o,o,o,o,o,o,12,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],q),B.D,B.w,B.r,o)
+r=A.cO(A.a([s,B.eQ,A.b8(A.ku("M.d.(E) a h:mm","ko_KR").ei(r),o,o,o,A.bY(o,o,A.D(a).db,o,o,o,o,o,o,o,o,12,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o)],q),B.D,B.w,B.r,o)
 s=p.a.d.d
 s===$&&A.b()
 return A.nU(B.aq,o,o,A.bw(A.a([r,A.b8(s,o,o,o,A.D(a).p3.at,o,o,o)],q),B.aU,B.w,B.r),n)}}
