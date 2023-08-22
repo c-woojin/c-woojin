@@ -114678,20 +114678,19 @@ A.azf.prototype={
 zV(a){return this.aDb(a)},
 aDb(a){var s=0,r=A.x(t.Lr),q,p=this,o,n,m,l,k,j,i,h,g
 var $async$zV=A.t(function(b,c){if(b===1)return A.u(c,r)
-while(true)switch(s){case 0:i=t.N
-h=A.a6(["team_id",a],i,i)
-i=p.b
-i===$&&A.b()
+while(true)switch(s){case 0:i=A.a6(["team_id",a,"only_upcoming",!0],t.N,t.K)
+h=p.b
+h===$&&A.b()
 o=p.a
 o===$&&A.b()
 n=p.d
 n===$&&A.b()
 s=3
-return A.p(i.B_(0,o+"/schedules/",A.eN(n,null),h,t.z),$async$zV)
+return A.p(h.B_(0,o+"/schedules/",A.eN(n,null),i,t.z),$async$zV)
 case 3:m=c
 l=A.a([],t.mM)
-for(i=J.az(m.a);i.t();)l.push(A.wW(i.gH(i)))
-i=l.length,k=0
+for(h=J.az(m.a);h.t();)l.push(A.wW(h.gH(h)))
+h=l.length,k=0
 case 4:if(!(k<l.length)){s=6
 break}j=l[k]
 o=j.a
@@ -114700,7 +114699,7 @@ g=j
 s=7
 return A.p(p.jt(o),$async$zV)
 case 7:g.z=c
-case 5:l.length===i||(0,A.V)(l),++k
+case 5:l.length===h||(0,A.V)(l),++k
 s=4
 break
 case 6:q=l
