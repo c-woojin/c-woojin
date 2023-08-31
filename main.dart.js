@@ -33465,7 +33465,7 @@ Zz:function Zz(){},
 nx(a){var s=new A.axF(a),r=t.N
 s.d=A.a3(["Authorization","Bearer "+a],r,r)
 s.b=A.zZ(null)
-s.a="http://127.0.0.1:8002"
+s.a="https://api.stap.im"
 return s},
 JK:function JK(a,b){this.a=a
 this.b=b},
@@ -33488,7 +33488,7 @@ axJ:function axJ(){},
 mi(a){var s=new A.aCt(a),r=t.N
 s.d=A.a3(["Authorization","Bearer "+a],r,r)
 s.b=A.zZ(null)
-s.a="http://127.0.0.1:8002"
+s.a="https://api.stap.im"
 return s},
 Lk:function Lk(a,b){this.a=a
 this.b=b},
@@ -33520,7 +33520,7 @@ aCD:function aCD(){},
 aCA:function aCA(){},
 uv(){var s=new A.aFA()
 s.b=A.zZ(null)
-s.a="http://127.0.0.1:8002"
+s.a="https://api.stap.im"
 return s},
 Nn:function Nn(){},
 HX:function HX(){},
@@ -33535,12 +33535,12 @@ aFI:function aFI(){},
 aFH:function aFH(){},
 xX(){var s=new A.aGU()
 s.b=A.zZ(null)
-s.a="http://127.0.0.1:8002"
+s.a="https://api.stap.im"
 return s},
 aGU:function aGU(){this.b=this.a=$},
 bcq(){var s=new A.aIv()
 s.b=A.zZ(null)
-s.a="http://127.0.0.1:8002"
+s.a="https://api.stap.im"
 return s},
 a5w:function a5w(){},
 IQ:function IQ(){},
@@ -117941,7 +117941,7 @@ q===$&&A.b()
 k=k.a
 k===$&&A.b()
 s=2
-return A.o(n.fR("http://127.0.0.1:8002/alerts/send/slack",A.a3(["channel","C05LZ5CEM1D","message",b,"team_id",q,"member_id",k],m,m),A.cT(l,null),t.z),$async$EQ)
+return A.o(n.fR("https://api.stap.im/alerts/send/slack",A.a3(["channel","C05LZ5CEM1D","message",b,"team_id",q,"member_id",k],m,m),A.cT(l,null),t.z),$async$EQ)
 case 2:return A.t(null,r)}})
 return A.u($async$EQ,r)}}
 A.ax4.prototype={
